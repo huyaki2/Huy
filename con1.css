@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 1492px;
+    height: 60px;
+    background-color: red;
+}
+nav ul{
+    list-style: none;
+    margin: auto;
+}
+nav ul li{
+    float: left;
+    line-height: 50px;
+    padding: 0 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration:none;
+}
+.menu nav li:hover{
+    background-color: green;
+    height: 60px;
+}
+.dau{
+    background-color: green;
+    height: 60px;
+}
+article{
+    width: 75%;
+    min-height: 600px;
+    background-color: white;
+    float: left;
+}
+aside{
+    width: 20%;
+    min-height: 70%px;
+    float: left;
+}
+.hinhtrungbay img{
+    width: 700px;
+}
+.hinhtrungbay{
+    text-align: center;
+}
+.hinhtrungbay1 img{
+    height: 250px;
+    text-align: center;
+    width: 230px;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+aside{
+    margin: 30px;
+    right: 150px;
+    position: relative;
+}
+.vmenu h1{
+    position: relative;
+    padding: 10px;
+    margin: 0px;
+    background-color: green ;
+    color: white;
+}
+.vmenu{
+    width: 250px;
+    position: relative;
+    padding: 0px;
+    margin: 10px;
+    list-style: none;
+    border-radius: 2px;
+    box-shadow: 0 0 5px black;
+}
+.vmenu a{
+    display: block;
+    border-bottom: 1px double black;
+    color: black;
+    font-variant:inherit;
+    font-size:large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    font-weight: 500px;
+}
+.vmenu a:hover{
+    border-bottom: 1px double white;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.duoi{
+    text-align: center;
+}
+.giaa{
+    color: red;
+    font-size: 20px;
+}
+.giaa span{
+    padding-right: 300px;
+}
+p{
+    font-size: 18px;
+    padding-left: 200px;
+    position: absolute;
+}
+.nutt i{
+    color: white;
+}
+.nutt button{
+    transition: 0.5s;
+    margin: 10px;
+    width: 200px;
+    background-color: red;
+    padding: 10px;
+    box-shadow: 0 0 15px black;
+}
+.nutt a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.nutt button:hover{
+    background-color: green;
+}
+.hinhbaiviet p{
+    position: relative;
+}
+.hinhbaiviet{
+    position: relative;
+}
+.hinhbaiviet img{
+    position: relative;
+    padding-left: 200px;
+}
+b{
+    color: red;
+}
+.mau{
+    color: gray;
+}
+.suon{
+    position: relative;
+    padding-left: 150px;
+}
+.ten{
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+.gia{
+    color: red;
+}
+.gia del{
+    color: black;
+}
+
+.khung img{
+    width: 100%;
+}
+.khung{
+    position: relative;
+    width: 25%;
+    margin: 10px;
+    float: left;
+    padding-left: 6px;
+}
+.cot{
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    padding: 5px;
+}
+.cot img:hover{
+    border-radius: 32px 64px;
+}
+.nut{
+    text-align: center;
+}
+.nut button a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.nut button{
+    background-color: green;
+}
+.trang1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.trang2 h3{
+    padding-left: 250px;
+}
+.trang2 img{
+    padding-left: 150px;
+}
+.trang{
+    clear: both;
+    background-color: red;
+    width: 1492px;
+    height: 350px;
+    padding: 15px;
+}

@@ -1,0 +1,185 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+header{
+    width: 1492px;
+    height: 60px;
+    background-color: red;
+    border-bottom: 1px double black;
+}
+nav ul{
+    list-style: none;
+    margin: auto;
+}
+nav ul li{
+    float: left;
+    line-height: 50px;
+    padding: 0 30px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration:none;
+}
+.menu nav li:hover{
+    background-color: green;
+    height: 60px;
+}
+.dau{
+    background-color: green;
+    height: 60px;
+}
+article{
+    width: 65%;
+    height: 700px;
+    float: left;
+    background-color: white;
+}
+aside{
+    width: 35%;
+    height: 800px;
+    float: right;
+    background-color: gainsboro;
+    border-radius: 1px;
+}
+.buy{
+    margin: 5px;
+    text-align: center;
+}
+.sanpham img{
+    margin: 15px;
+    border-radius: 15px;
+    filter: drop-shadow(0 10px 20px black);
+} 
+.giaa{
+    color: red;
+    font-size: 20px;
+}
+.giaa span{
+    padding-right: 150px;
+}
+.giaa h1{
+    color: black;
+    border: 5px;
+}
+.giaa hr{
+    background-color: red;
+    margin: 5px;
+}
+.sanpham img:hover{
+    transition: 4s;
+    background-color: greenyellow;
+    border-radius: 32px 70px;
+}
+.infor{
+    margin: 40px;
+    font-size: 20px;
+    float: right;
+    color: red;
+}
+.money h1{
+    color: black;
+    text-align: center;
+}
+select{
+    width: 190px;
+    height: 50px;
+    color: black;
+}
+.trai{
+    float: left;
+}
+.phai{
+    float: right;
+}
+.trai input{
+    width: 185px;
+    height: 50px;
+    color: black;
+}
+.phai input{
+    width: 185px;
+    height: 50px;
+    color: black;
+}
+.trai textarea{
+    width: 430px;
+    height: 100px;
+}
+.trai button{
+    transition: 0.5s;
+    margin: 10px;
+    width: 150px;
+    background-color: red;
+    padding: 10px;
+    box-shadow: 0 0 15px black;
+}
+.phai button{
+    transition: 0.5s;
+    margin: 10px;
+    width: 150px;
+    background-color: red;
+    padding: 10px;
+    box-shadow: 0 0 15px black;
+}
+.trai button:hover{
+    background-color: green;
+}
+.phai button:hover{
+    background-color: green;
+}
+.trai a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.phai a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.trai input:focus{
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: aqua;
+    transition: 3s;
+}
+.phai input:focus{
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: aqua;
+    transition: 3s;
+}
+.trai textarea:focus{
+    font-weight: bold;
+    font-variant: small-caps;
+    background-color: aqua;
+    transition: 3s;
+}
+.trang{
+    background-color: red;
+    width: 1492px;
+    height: 350px;
+    padding: 15px;
+}
+h3{
+    font-size: 40px;
+}
+span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    clear: both;
+}
+.trang1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.trang2 h3{
+    padding-left: 250px;
+}
+.trang2 img{
+    padding-left: 250px;
+}
